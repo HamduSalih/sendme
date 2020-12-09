@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Users\Zuchi\AppData\Roaming\npm\node_modules\node\bin\node.exe C:\Users\Zuchi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Ruby26-x64\bin;C:\Users\Zuchi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Zuchi\AppData\Roaming\npm;C:\adb;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Zuchi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Zuchi\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:205:27)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
