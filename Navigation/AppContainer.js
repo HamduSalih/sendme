@@ -2,6 +2,7 @@ import React from 'react'
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 import Home from '../Screens/Home'
+import Login from '../Screens/Login'
 
 const AppNavigator = createStackNavigator({
 //     SearchScreen:{
@@ -17,6 +18,13 @@ const AppNavigator = createStackNavigator({
             headerShown: false
         }
     },
+    Login: {
+        screen: Login,
+        navigationOptions:{
+            headerLeft: ()=>null,
+            headerShown: false
+        }
+    }
 //     AddProperty:{
 //         screen: AddProperty,
 //         navigationOptions:{
@@ -33,9 +41,9 @@ const AppNavigator = createStackNavigator({
 //         }
 //     },
     },
-//     {
-//         initialRouteName: '',
-//     }
+    {
+        initialRouteName: 'Login',
+    }
 )
 
 export default createAppContainer(AppNavigator)
