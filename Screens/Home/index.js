@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import { View, StyleSheet, Dimensions, BackHandler, ImageBackground, Text, TouchableOpacity } from 'react-native'
 import Constants from 'expo-constants'
 
+import Theme from '../../assets/Theme'
+
 import {
 	
 } from "../../Modules/Home";
@@ -54,7 +56,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     width: '90%',
     marginHorizontal: 5,
-    backgroundColor: '#09135b',
+    backgroundColor: Theme.primary,
     paddingVertical: 15
   },
   registerButton:{
@@ -62,18 +64,18 @@ const styles = StyleSheet.create({
     width: '90%',
     marginHorizontal: 5,
     paddingVertical: 15,
-    borderColor: 'white',
+    borderColor: Theme.white,
     borderWidth: 2
   },
   buttonTexts1:{
-    color: '#fff',
+    color: Theme.white,
     fontWeight: 'bold',
     width: '100%',
     textAlign: 'center', 
     fontSize: 15
   },
   buttonTexts2:{
-    color: '#09135b',
+    color: Theme.primary,
     fontWeight: 'bold',
     width: '100%',
     textAlign: 'center', 
