@@ -27,7 +27,6 @@ const Login = () => {
       });
     return (
       <ImageBackground source={imageBackground} style={styles.scene}>
-        <View style={styles.statusBar}></View>
 
             {
                 fontsLoaded &&
